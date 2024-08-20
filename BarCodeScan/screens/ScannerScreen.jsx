@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Pressable, StyleSheet, Text, View, Alert } from 'react-native';
 import { Camera } from 'expo-camera';
 
+// barcodee-scanner not found
+
 const API_URL = 'http://localhost:3000/verify-product';
 
 export default function ScannerScreen() {
@@ -16,6 +18,7 @@ export default function ScannerScreen() {
             setHasPermission(status === 'granted');
         })();
     }, []);
+
 
     const handleBarCodeScanned = async ({ type, data }) => {
         setScanned(true);
