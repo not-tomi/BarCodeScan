@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "BarCodeScan",
-    "slug": "BarCodeScan",
+    "name": "ChangoFacil",
+    "slug": "ChangoFacil",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
